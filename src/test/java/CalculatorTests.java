@@ -29,7 +29,9 @@ public class CalculatorTests {
     @Test
     public void testarea() {
 
-        int a = 5, b = 8, expected = 40;
+        int a = 5;
+        int b = 8; 
+        int expected = 40;
 
 
         int result = sut.area(a, b);
@@ -42,7 +44,9 @@ public class CalculatorTests {
 
     public void testperimeter() {
 
-        int a = 6, b = 10, expected = 32;
+        int a = 6; 
+        int b = 10; 
+        int expected = 32;
 
 
         int result = sut.perimeter(a, b);
